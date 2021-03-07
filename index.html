@@ -6,17 +6,18 @@
 
     <title>سروناز</title>
     <style>
-
-      * { margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
       }
       .header1 {
+        position: relative;
         background-image: url(test.JPG);
         background-position: center;
         background-repeat: repeat;
-        width: 100%; height: 553px;
+        width: 100%;
+        height: 553px;
       }
       h1 {
         color: maroon;
@@ -42,7 +43,6 @@
       .green span {
         color: green;
         font-weight: bold;
-        
       }
       .green {
         color: darkred;
@@ -54,7 +54,6 @@
         color: darkviolet;
       }
 
-
       p .red {
         color: red;
       }
@@ -63,18 +62,17 @@
         color: teal;
         background-color: brown;
       }
-	  P {
-		  text-align: center;
-	  }
+      P {
+        text-align: center;
+      }
       .menu-list {
         list-style: none;
         text-align: center;
       }
-      .menu-list__item 
-      {
+      .menu-list__item {
         display: inline-block;
       }
-      .menu-list__link { 
+      .menu-list__link {
         text-decoration: none;
         border: 10px double coral;
         background-color: darkgreen;
@@ -82,38 +80,46 @@
         padding: 15px 15px 15px 15px;
         border-radius: 50%;
       }
-      .menu-list__link--active :hover  {
+      .menu-list__link--active :hover {
         color: gold;
-      }      
+      }
       .link {
         text-decoration: none;
-        color: orangered; background-color: seagreen; 
-        width: 15px ; height: 10;
+        padding-top: 50px;
+        color: orangered;
+        background-color: seagreen;
+        width: 15px;
+        height: 10;
         border: 10px double steelblue;
         padding: 15px 15px 15px 15px;
         text-align: center;
       }
-
+      .logo {
+        position: absolute;
+        left: 10%;
+        top: 10%;
+      }
     </style>
   </head>
 
   <body>
     <div class="header1">
+      <img src="sarv.jpeg" alt="logo" class="logo" />
 
-    
-    <p>سلام 🥰</p>
+      <p>سلام 🥰</p>
 
-    <p class="green">
-      به وبلاگ
-      <span> 😊 سروناز 😊 </span>
-      <em> خوش آمدید </em>
-    </p>ّ
+      <p class="green">
+        به وبلاگ
+        <span> 😊 سروناز 😊 </span>
+        <em> خوش آمدید </em>
+      </p>
+      ّ
 
-    <p>از ابتدا شروع کنید</p>
-    <ul class="link">
-      <li> درباره صفحه</li>
-      <li>صفحه اصلی </li>
-    </ul>
+      <p>از ابتدا شروع کنید</p>
+      <ul class="link">
+        <li>درباره صفحه</li>
+        <li>صفحه اصلی</li>
+      </ul>
     </div>
 
     <div class="header">
@@ -121,82 +127,28 @@
     </div>
     <img src="tabiaat1.JPG" width="900" height="300" alt="tabiaat" />
 
-    گفتی که مستت می کنم
-    <br />
-    پر زانچه هــستت می کنم
-    <br />
-    گـــفتم چـــگونه از کجا؟
-    <br />
-    گفتی که تا گـفتی خودآ
-    <br />
-    گفتی که درمــانت دهم
-    <br />
-    بر هـــــجر پـایـانت دهم
-    <br />
-    گفتم کجا،کی خواهد این؟
-    <br />
-    گفتی صـــبوری باید این
-
     <h2>معرفی فیلم و کتاب</h2>
     <p class="green2"></p>
     <p>
       ای سرو ناز حسن که خوش می‌روی به ناز
       <br />
       عشاق را به ناز تو هر لحظه صد نیاز
-      <br />
-      فرخنده باد طلعت خوبت که در ازل
-      <br />
-      ببریده‌اند بر قد سروت قبای ناز
-      <br />
-      آن را که بوی عنبر زلف تو آرزوست
-      <br />
-      چون عود گو بر آتش سودا بسوز و ساز
-      <br />
-      پروانه را ز شمع بود سوز دل ولی
-      <br />
-      بی شمع عارض تو دلم را بود گداز
-      <br />
-      صوفی که بی تو توبه ز می کرده بود دوش
-      <br />
-      بشکست عهد چون در میخانه دید باز
-      <br />
-      از طعنه رقیب نگردد عیار من
-      <br />
-      چون زر اگر برند مرا در دهان گاز
-      <br />
-      دل کز طواف کعبه کویت وقوف یافت
-      <br />
-      از شوق آن حریم ندارد سر حجاز
-      <br />
-      هر دم به خون دیده چه حاجت وضو چو نیست
-      <br />
-      بی طاق ابروی تو نماز مرا جواز
-      <br />
-      چون باده باز بر سر خم رفت کف زنان
-      <br />
-      حافظ که دوش از لب ساقی شنید راز
-      <br />
-
       <cite> حافظ</cite>
     </p>
 
     <ul class="menu-list">
-      <li class="menu-list__item"><a class="menu-list__link" href="index.html"> معرفی فیلم </a></li>
-      <li class="menu-list__item"><a class="menu-list__link--active" href="pages/about"> معرفی کتاب </a></li>
+      <li class="menu-list__item">
+        <a class="menu-list__link" href="index.html"> معرفی فیلم </a>
+      </li>
+      <li class="menu-list__item">
+        <a class="menu-list__link--active" href="pages/about"> معرفی کتاب </a>
+      </li>
     </ul>
 
     <img src="tabiaat2.jpg" width="600" height="300" alt="shokofe" />
 
     <blockquote>
-      <p>
-        شد ز غمت خانه سودا دلم
-        <br />
-        در طلبت رفت به هر جا دلم
-        <br />
-        در طلب زهره رخ ماه رو
-        <br />
-        می نگرد جانب بالا دلم
-      </p>
+      <p>nothing is permanent</p>
 
       <cite> مولانا </cite>
     </blockquote>
